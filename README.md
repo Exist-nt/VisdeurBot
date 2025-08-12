@@ -5,3 +5,10 @@ VisdeurBot is an AI model created to help identify fish travelling through the W
 Learn more about the Fish Doorbell project [here](https://visdeurbel.nl) ([English link](https://visdeurbel.nl/en)).
 
 See the AI in action [here](https://xistnt.neocities.org/visdeurbel.html).
+
+# How to use
+Clone the Git repository: 
+```
+git clone https://github.com/Exist-nt/VisdeurBot.git
+cd VisdeurBot
+```
