@@ -6,6 +6,19 @@ Learn more about the Fish Doorbell project [here](https://visdeurbel.nl) ([Engli
 
 See the AI in action [here](https://xistnt.neocities.org/projects/visdeurbel.html).
 
+This model can detect the following species of fish, identified as being the most common to pass through the Weerdsluis:
+- Alver (Common bleak)
+- Baars (Perch)
+- Blankvoorn (Common roach)
+- Brasem (Common bream)
+- Kolblei (White bream)
+- Meerval (Wels catfish)
+- Paling (European eel)
+- Ruisvoorn (Common rudd)
+- Snoek (Northern pike)
+- Snoekbaars (Pikeperch)
+- Winde (Ide)
+ 
 # Dependencies
 This model must be run on an Nvidia Tegra system with the jetson-inference packages and the latest release of L4T Ubuntu installed.
 To build the jetson-inference packages:
