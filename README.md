@@ -16,6 +16,7 @@ mkdir build && cd build
 cmake ../
 ```
 It is recommended to install PyTorch when the option shows up at this step, although it can still be installed later.
+Continue the setup as below:
 ```
 make -j(nproc)
 sudo make install
