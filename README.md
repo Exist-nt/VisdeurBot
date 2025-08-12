@@ -6,6 +6,22 @@ Learn more about the Fish Doorbell project [here](https://visdeurbel.nl) ([Engli
 
 See the AI in action [here](https://xistnt.neocities.org/projects/visdeurbel.html).
 
+# Dependencies
+This model must be run on an Nvidia Tegra system with the jetson-inference packages installed.
+To build the jetson-inference packages:
+```
+git clone --recursive https://github.com/dusty-nv/jetson-inference
+cd jetson-inference
+mkdir build && cd build
+cmake ../
+```
+It is recommended to install PyTorch when the option shows up at this step, although it can still be installed later.
+```
+make -j(nproc)
+sudo make install
+sudo ldconfig
+```
+
 # How to use
 Clone and enter the Git repository: 
 ```
