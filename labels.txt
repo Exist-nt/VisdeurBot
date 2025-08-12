@@ -1,12 +1,12 @@
 BACKGROUND
-Alver
-Baars
-Blankvoorn
-Brasem
-Kolblei
-Meerval
-Paling
-Ruisvoorn
-Snoek
-Snoekbaars
-Winde
+Alver (Common bleak)
+Baars (Perch)
+Blankvoorn (Common roach)
+Brasem (Common bream)
+Kolblei (White bream)
+Meerval (Wels catfish)
+Paling (European eel)
+Ruisvoorn (Common rudd)
+Snoek (Northern pike)
+Snoekbaars (Pikeperch)
+Winde (Ide)
