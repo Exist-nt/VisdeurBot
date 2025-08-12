@@ -7,7 +7,7 @@ Learn more about the Fish Doorbell project [here](https://visdeurbel.nl) ([Engli
 See the AI in action [here](https://xistnt.neocities.org/projects/visdeurbel.html).
 
 # Dependencies
-This model must be run on an Nvidia Tegra system with the jetson-inference packages installed.
+This model must be run on an Nvidia Tegra system with the jetson-inference packages and the latest release of L4T Ubuntu installed.
 To build the jetson-inference packages:
 ```
 git clone --recursive https://github.com/dusty-nv/jetson-inference
