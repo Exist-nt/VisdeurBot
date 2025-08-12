@@ -32,6 +32,12 @@ cd VisdeurBot
 
 Run the detection script:
 ```
-./detectnet.py /path/to/input.mp4 /path/to/output.mp4
+detectnet \
+--model=visdeurbot.onnx \
+--labels=labels.txt \
+--input-blob=input_0 \
+--output-cvg=scores \
+--output-bbox=boxes \
+/path/to/input.mp4 /path/to/output.mp4
 ```
 The input can either be a .mp4 file, or a camera device - usually found at /dev/video0.
