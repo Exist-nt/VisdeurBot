@@ -21,6 +21,7 @@ This model can detect the following species of fish, identified as being the mos
  
 # Dependencies
 This model must be run on an Nvidia Tegra system with the jetson-inference packages and the latest release of L4T Ubuntu installed.
+
 To build the jetson-inference packages:
 ```
 git clone --recursive https://github.com/dusty-nv/jetson-inference
@@ -29,6 +30,7 @@ mkdir build && cd build
 cmake ../
 ```
 It is recommended to install PyTorch when the option shows up at this step, although it can still be installed later.
+
 Continue the setup as below:
 ```
 make -j$(nproc)
@@ -54,5 +56,7 @@ detectnet \
 /path/to/input.mp4 /path/to/output.mp4
 ```
 The input can either be a .mp4 file, or a camera device - usually found at /dev/video0.
+
 The AI will then take about 5 minutes to load the model to disk, and if everything goes right you will be able to watch the AI work in real-time in a separate window.
+
 You can leave the output field blank, and the script will still display the results in real-time.
