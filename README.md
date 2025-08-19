@@ -19,8 +19,6 @@ This model can detect the following species of fish, identified as being the mos
 - Snoekbaars (Pikeperch)
 - Winde (Ide)
  
-![visdeurbot](https://xistnt.neocities.org/Images/visdeurbot.gif)
-
 # Dependencies
 This model must be run on an Nvidia Tegra system with the jetson-inference packages and the latest release of L4T Ubuntu installed.
 
