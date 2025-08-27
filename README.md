@@ -21,6 +21,7 @@ This model can detect the following species of fish, identified as being the mos
  
 # Dependencies
 This model must be run on an Nvidia Tegra system with the jetson-inference packages and the latest release of L4T Ubuntu installed.
+> NOTE: Due to an issue in the latest TensorRT release, this program will not work on Jetpack releases later than 36.3.0. You can check your firmware version using `nvbootctrl dump-slots-info`.
 
 To build the jetson-inference packages:
 ```
