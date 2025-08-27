@@ -54,9 +54,11 @@ detectnet \
 --input-blob=input_0 \
 --output-cvg=scores \
 --output-bbox=boxes \
-/path/to/input.mp4 /path/to/output.mp4
+/path/to/input /path/to/output
 ```
-The input can either be a .mp4 file, or a camera device - usually found at /dev/video0. Use `v4l2-ctl --list-devices` (part of the `v4l-utils` package) to see attached cameras if /dev/video0 does not exist.
+
+The input and output fields can be either video or photo files, but they must be in the same file format. 
+The input can also be a camera device - usually found at /dev/video0. Use `v4l2-ctl --list-devices` (part of the `v4l-utils` package) to see attached cameras if /dev/video0 does not exist. 
 
 The AI will then take about 5 minutes to load the model to disk, and if everything goes right you will be able to watch the AI work in real-time in a separate window.
 
